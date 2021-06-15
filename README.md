@@ -1,3 +1,7 @@
+Hướng dẫn chạy:
+```python
+python tracking_object_by_color.py --video BallTracking.mp4
+```
 # Object Tracking by using color
 Trong bài này chúng ta cùng tìm hiểu về object tracking dựa trên màu săc của đối tượng.
 **Ý tưởng chung** - dựa vào color detection (color của vật để detect vị trí của vật) từ đó có thể track theo vật khi nó di chuyển. Việc xác định color boundaries (ranh giới màu) khi xác định vật thể nhiều khi rất khó do ảnh ảnh của điều kiện ánh sáng (light condition), tuy nhiên đôi khi với ngưỡng màu (color threshold) nào đó ta có thể dễ dạng tracking vật thể.
